@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+  body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+  /* background-color: whitesmoke; */
+  }
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #EFEFEF;
+  }
+  .component {
+    margin-bottom: 5px; /* Adjust this value to reduce space */
+  }
+  

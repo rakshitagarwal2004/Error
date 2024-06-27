@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body, html {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .complete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: #F7EBEC;
+    padding: 20px;
+  }
+  
+  
+  .veterani-care{
+    margin-top: 100px;
+
+  }
+  .veterani-img {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .DogDiv {
+    flex-shrink: 0; /* Ensure the image does not shrink */
+  }
+  
+  .Dog {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .doctor-description {
+    flex-grow: 1; /* Allow the text box to take up remaining space */
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #DDBDD5;
+    text-align: center;
+    align-items: center;
+    height: 320px;
+    border-radius: 150px 10px 10px 150px; ;
+
+  }
+  
+  .doctor-description h2 span {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: left;
+  }
+  .DogReq{
+    height: 100px;
+    width:100px;
+    float: left;
+    
+  }
+  .doctor-description h4 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.8rem;
+  }
+  
+  .doctor-description p {
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    font-size: 1.9rem;
+  }
+  

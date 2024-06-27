@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .doctor-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1530px;
+    height: 530px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f7ebec;
+    border-radius: 10px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Logo {
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    margin-left: 140px;
+    
+    border: 2px solid black;
+  }
+  
+  .doctor-text-box {
+    text-align: left;
+    max-width: 600px;
+    margin-top: -100px;
+    margin-left: 39px;
+  }
+  
+  .doctor-text-box h2 {
+    color: black;
+    font-size: 5rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-top: -190px;
+    margin-left: -71px;
+  }
+  
+  .doctor-text-box h2 img {
+    margin-right: 10px;
+  }
+  
+  .Safegaurd h4 {
+    color: black;
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-top: 120px;
+    margin-left: -570px;
+  }
+  .image-cat{
+    height:530px;
+    width: 4000px;
+    background-color: #DDBDD5;
+    border-radius: 200px 0px 0px 200px;
+  }
+  .Cat {
+    height: 530px;
+    width: 500px;
+
+    object-fit: cover;
+    float: right;
+  }
+  
+  @media (max-width: 768px) {
+    .doctor-wrapper {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .logo-container {
+      justify-content: center;
+    }
+  
+    .doctor-text-box {
+      max-width: 100%;
+    }
+  
+    .doctor-text-box h2 {
+      justify-content: center;
+    }
+  
+    .Cat {
+      max-width: 200px;
+    }
+  }
+  

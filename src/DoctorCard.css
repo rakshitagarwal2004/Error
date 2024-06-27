@@ -1,0 +1,83 @@
+.doctor-card {
+    display: flex;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #fff;
+  }
+  
+  .doctor-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border: 3px solid black;
+    background-color:  #AC9FBB;
+    width:140px;
+    height: 140px;
+  }
+  
+  .doctor-image img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .doctor-info {
+    flex: 2;
+    padding-right: 20px;
+  }
+  
+  .doctor-info h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    align-items: center;
+    text-align: left;
+    font-weight: 200;
+  }
+  
+  .doctor-rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .doctor-rating .stars {
+    color: gold;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .doctor-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .doctor-actions .know-your-vet, 
+  .doctor-actions .book-now {
+    background-color: #c6a5cf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 20px ;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  .doctor-actions .know-your-vet {
+    background-color: #d7c4d8;
+  }
+  .doctor-actions .book-now {
+    color: black;
+  }
